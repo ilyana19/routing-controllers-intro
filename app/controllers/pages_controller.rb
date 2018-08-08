@@ -4,6 +4,7 @@ class PagesController < ApplicationController
   end
 
   def contest
+    @header = "This is the contest page"
     render :contest
   end
 end
